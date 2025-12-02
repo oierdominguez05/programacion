@@ -1,4 +1,4 @@
-package arrays.refuerzo
+package arrays.refuerzo;
 
 public class Main {
 
