@@ -13,6 +13,9 @@ public class Main {
 		
 		int[] contarNum = {1, 4, 5, 6, 7, 4, 3, 1, 8, 3, 4};
 		
+		
+		
+		
 		System.out.println("Dime el numero: ");
 		Scanner teclado = new Scanner (System.in);
 		int numero = teclado.nextInt();

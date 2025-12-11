@@ -18,16 +18,18 @@ public class Main {
 		int edad = teclado.nextInt();
 		
 		
+		boolean resultado = edad(edad);
 		
-		edad(edad);
+		System.out.println(resultado);
 	}
 		
-		public static void edad (int edad) {
+		public static boolean edad (int edad) {
 			if (edad > 18 ) {
-				System.out.println("Mayor de edad");
 				
+				return true;
 			} else {
-				System.out.println("Menor de edad");
+				
+				return false;
 			
 		}
 		
