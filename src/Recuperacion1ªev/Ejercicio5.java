@@ -35,13 +35,12 @@ public class Ejercicio5 {
 		if (cantidad < 1 || max < 1 || min < 0) {
 			System.out.println("Introduce valores correctos");
 		} else {
-			
-		
-		for (int i = 1; i <= cantidad; i++) {
-			int aleatorio = min + (int) (Math.random() * ((max - min) + 1));
 
-			System.out.println(aleatorio);
-		}
+			for (int i = 1; i <= cantidad; i++) {
+				int aleatorio = min + (int) (Math.random() * ((max - min) + 1));
+
+				System.out.println(aleatorio);
+			}
 		}
 
 		return aleatorio;
