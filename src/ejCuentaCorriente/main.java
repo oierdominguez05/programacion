@@ -1,11 +1,16 @@
 package ejCuentaCorriente;
 
+import java.util.ArrayList;
+
+import ejCuentaCorriente.controlador.ControladorCuenta;
+import ejCuentaCorriente.modelo.Cuenta;
+import ejCuentaCorriente.vista.VistaCuenta;
+
 public class main {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+    public static void main(String[] args) {
 
-		/*
+    	/*
 		 * Diseñar la clase CuentaCorriente, que almacena los datos: DNI y nombre del
 		 * titular, así como el saldo. Las operaciones típicas con una cuenta corriente
 		 * son: • Crear una cuenta: se necesita el DNI y nombre del titular. El saldo
@@ -14,16 +19,16 @@ public class main {
 		 * se incrementa el saldo. • Mostrar información: muestra la información
 		 * disponible de la cuenta corriente.
 		 */
-		
-		
-		
-		
-		
-		
-		
-		
-		
+    	
+        VistaCuenta vistaCuenta = new VistaCuenta();
+        Cuenta cuenta = new Cuenta("12345678T", "Oier", 0);
 
-	}
+   
+        ControladorCuenta controladorCuenta = new ControladorCuenta(vistaCuenta, cuenta);
 
+
+      
+
+        controladorCuenta.inicio();
+    }
 }
