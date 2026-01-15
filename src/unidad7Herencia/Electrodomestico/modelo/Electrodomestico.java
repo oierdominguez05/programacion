@@ -1,33 +1,27 @@
 package unidad7Herencia.Electrodomestico.modelo;
 
-public class Electrodomestico {
+public class Electrodomestico extends Object {
 
 	private double precio;
 	private String color;
-	private String[] consumo = { "A", "B", "C", "D", "E", "F" };
+
 	private double peso;
 
-	public Electrodomestico(double precio, String color, String[] consumo, double peso) {
+	public Electrodomestico(double precio, String color, double peso) {
 		super();
 		this.precio = precio;
 		this.color = color;
-		this.consumo = consumo;
 		this.peso = peso;
 	}
 
-	public String comprobarConsumoEnergetico(String letra) {
-		for (int i = 0; i < consumo.length; i++) {
-			if (consumo[i].equals(letra)) {
-				return consumo[i];
-			}
-		}
-		return "No hay letra";
-	}
+	
 	
 	
 	public boolean comprobarColor(String color) {
-		
-				
+		if (color.equals("azul") || color.equals("verde") || color.equals("rojo") || color.equals("amarillo") || color.equals("naranja")) {
+			return true;
+		}
+		return false;		
 	}
 	
 	public void precioFinal() {
@@ -66,4 +60,15 @@ public class Electrodomestico {
 		this.peso = peso;
 	}
 
+
+
+
+	@Override
+	public String toString() {
+		return "Electrodomestico [precio=" + precio + ", color=" + color + ", peso=" + peso + "]";
+	}
+
+	
+	
+	
 }

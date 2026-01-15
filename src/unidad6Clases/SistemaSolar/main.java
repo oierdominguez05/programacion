@@ -1,6 +1,5 @@
 package unidad6Clases.SistemaSolar;
 
-import java.util.Arrays;
 
 import unidad6Clases.SistemaSolar.controlador.ControladorSistema;
 import unidad6Clases.SistemaSolar.modelo.Planeta;

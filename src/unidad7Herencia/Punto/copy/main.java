@@ -1,4 +1,4 @@
-package Herencia.Punto.copy;
+package unidad7Herencia.Punto.copy;
 
 public class main {
 

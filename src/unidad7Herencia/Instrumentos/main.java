@@ -1,6 +1,7 @@
 package unidad7Herencia.Instrumentos;
 
 import unidad7Herencia.Instrumentos.modelo.Instrumento;
+import unidad7Herencia.Instrumentos.modelo.Notas;
 import unidad7Herencia.Instrumentos.modelo.Piano;
 
 public class main {
@@ -19,9 +20,11 @@ public class main {
 
 		
 		Instrumento modelo = new Piano();
+		Notas notas = new Notas();
+		Piano piano = new Piano();
 		
-		modelo.add(NotasMusicales.re);
-		modelo.add(NotasMusicales.si);
+		modelo.add(Notas.doo);
+		modelo.add(Notas.si);
 		
 		modelo.interpretar();
 		

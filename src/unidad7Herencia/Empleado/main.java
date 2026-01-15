@@ -1,10 +1,10 @@
 package unidad7Herencia.Empleado;
 
-import Herencia.Empleado.modelo.Directivo;
-import Herencia.Empleado.modelo.Empleado;
-import Herencia.Empleado.modelo.Oficial;
-import Herencia.Empleado.modelo.Operario;
-import Herencia.Empleado.modelo.Tecnico;
+import unidad7Herencia.Empleado.modelo.Directivo;
+import unidad7Herencia.Empleado.modelo.Empleado;
+import unidad7Herencia.Empleado.modelo.Oficial;
+import unidad7Herencia.Empleado.modelo.Operario;
+import unidad7Herencia.Empleado.modelo.Tecnico;
 
 public class main {
 

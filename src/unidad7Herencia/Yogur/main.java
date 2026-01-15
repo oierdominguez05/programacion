@@ -1,7 +1,7 @@
 package unidad7Herencia.Yogur;
 
-import Herencia.Yogur.modelo.Yogur;
-import Herencia.Yogur.modelo.YogurDesnatado;
+import unidad7Herencia.Yogur.modelo.Yogur;
+import unidad7Herencia.Yogur.modelo.YogurDesnatado;
 
 public class main {
 

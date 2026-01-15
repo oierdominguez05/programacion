@@ -1,7 +1,7 @@
 package unidad7Herencia.Multimedia;
 
-import Herencia.Multimedia.modelo.Multimedia;
-import Herencia.Multimedia.modelo.Pelicula;
+import unidad7Herencia.Multimedia.modelo.Multimedia;
+import unidad7Herencia.Multimedia.modelo.Pelicula;
 
 public class main {
 

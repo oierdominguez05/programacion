@@ -1,7 +1,7 @@
 package unidad7Herencia.BiciExpress;
 
-import Herencia.BiciExpress.modelo.Caja;
-import Herencia.BiciExpress.modelo.CajaCarton;
+import unidad7Herencia.BiciExpress.modelo.Caja;
+import unidad7Herencia.BiciExpress.modelo.CajaCarton;
 
 public class main {
 

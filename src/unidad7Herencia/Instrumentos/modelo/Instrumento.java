@@ -1,18 +1,20 @@
 package unidad7Herencia.Instrumentos.modelo;
 
 import java.util.ArrayList;
+import unidad7Herencia.Instrumentos.modelo.Notas;
 
 
-import unidad7Herencia.Instrumentos.NotasMusicales;
+
 
 public abstract class Instrumento {
 
+	protected ArrayList<Notas> melodia = new ArrayList<>();
 	
-	protected ArrayList<NotasMusicales> melodia = new ArrayList<>();
 	
-	public void add(NotasMusicales nota) {
-		melodia.add(nota);
+	public void add(Notas n) {
+		melodia.add(n);
 	}
+	
 	
 	
 	 public abstract void interpretar();

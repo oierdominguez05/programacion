@@ -1,8 +1,8 @@
 package unidad7Herencia.Poligono;
 
-import Herencia.Poligono.modelo.Poligono;
-import Herencia.Poligono.modelo.Rectangulo;
-import Herencia.Poligono.modelo.Triangulo;
+import unidad7Herencia.Poligono.modelo.Poligono;
+import unidad7Herencia.Poligono.modelo.Rectangulo;
+import unidad7Herencia.Poligono.modelo.Triangulo;
 
 public class main {
 
