@@ -14,6 +14,13 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>src/unidad3Bucles/Entregables/BaseExponenteEj12/Main.java</name>
+			<type>1</type>
+			<locationURI>PARENT-3-PROJECT_LOC/Downloads/Ejercicios%20Entregables%20Tema3%20(2)/BaseExponente.ej12/src/main/Main.java</locationURI>
+		</link>
+	</linkedResources>
 	<filteredResources>
 		<filter>
 			<id>1765380153670</id>

@@ -1,0 +1,651 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "EjercicioCajeroAutomatico.Main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "main",
+            "request": "launch",
+            "mainClass": "Examen1_2ªev.EmpresaAgroalimentaria.main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "main(1)",
+            "request": "launch",
+            "mainClass": "Examen1_2ªev.EmpresaTransporte.main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "main(2)",
+            "request": "launch",
+            "mainClass": "Examen1_2ªev.GestionEmpleados.main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "main(3)",
+            "request": "launch",
+            "mainClass": "Examen1_2ªev.Punto.main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "main(4)",
+            "request": "launch",
+            "mainClass": "Examen1_2ªev.Zoologico.main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio1",
+            "request": "launch",
+            "mainClass": "Recuperacion1ªev.Ejercicio1",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio2",
+            "request": "launch",
+            "mainClass": "Recuperacion1ªev.Ejercicio2",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio3",
+            "request": "launch",
+            "mainClass": "Recuperacion1ªev.Ejercicio3",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio4",
+            "request": "launch",
+            "mainClass": "Recuperacion1ªev.Ejercicio4",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio5",
+            "request": "launch",
+            "mainClass": "Recuperacion1ªev.Ejercicio5",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Main(1)",
+            "request": "launch",
+            "mainClass": "Repaso.Bucles.AdivinarNumero.controlador.Main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Main(2)",
+            "request": "launch",
+            "mainClass": "Repaso.Bucles.ContarLetra.Main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Main(3)",
+            "request": "launch",
+            "mainClass": "Repaso.Bucles.Cuadrados.Main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Main(4)",
+            "request": "launch",
+            "mainClass": "Repaso.Bucles.Dados.Main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Main(5)",
+            "request": "launch",
+            "mainClass": "Repaso.Bucles.Divisores.Main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Main(6)",
+            "request": "launch",
+            "mainClass": "Repaso.Bucles.EjerciciosBuclesEj1.Main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Main(7)",
+            "request": "launch",
+            "mainClass": "Repaso.Bucles.Main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Main(8)",
+            "request": "launch",
+            "mainClass": "Repaso.Bucles.MediaEj8.Main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Main(9)",
+            "request": "launch",
+            "mainClass": "Repaso.Bucles.NumPares.Main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Main(10)",
+            "request": "launch",
+            "mainClass": "Repaso.Bucles.NumPosNegEj1.Main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Main(11)",
+            "request": "launch",
+            "mainClass": "Repaso.Bucles.NumeroReves.Main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Main(12)",
+            "request": "launch",
+            "mainClass": "Repaso.Bucles.NumerosDistintosEj2.Main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Main(13)",
+            "request": "launch",
+            "mainClass": "Repaso.Bucles.OrdenarNumerosEj6.Main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Main(14)",
+            "request": "launch",
+            "mainClass": "Repaso.Bucles.PalotesEj20.Main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Main(15)",
+            "request": "launch",
+            "mainClass": "Repaso.Bucles.ParImparEj4.Main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Main(16)",
+            "request": "launch",
+            "mainClass": "Repaso.Bucles.Piramide.Main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Main(17)",
+            "request": "launch",
+            "mainClass": "Repaso.Bucles.TablaMultiplicar.Main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Main(18)",
+            "request": "launch",
+            "mainClass": "Repaso.Bucles.Trianguloej12.Main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Main(19)",
+            "request": "launch",
+            "mainClass": "Repaso.Bucles.multiploEj3.Main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Main(20)",
+            "request": "launch",
+            "mainClass": "Repaso.Funciones.Caracteres.Main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Main(21)",
+            "request": "launch",
+            "mainClass": "Repaso.Funciones.Cuadrado.Main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Main(22)",
+            "request": "launch",
+            "mainClass": "Repaso.Funciones.Edades.Main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Main(23)",
+            "request": "launch",
+            "mainClass": "Repaso.Funciones.HorasMinutos.Main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Main(24)",
+            "request": "launch",
+            "mainClass": "Repaso.Funciones.Main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Main(25)",
+            "request": "launch",
+            "mainClass": "Repaso.Funciones.MinutosDiferencia.Main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Main(26)",
+            "request": "launch",
+            "mainClass": "Repaso.Funciones.NumAleatorios.Main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Main(27)",
+            "request": "launch",
+            "mainClass": "Repaso.Funciones.NumMaxMin.Main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Main(28)",
+            "request": "launch",
+            "mainClass": "Repaso.Funciones.ParImpar.Main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Main(29)",
+            "request": "launch",
+            "mainClass": "Repaso.Funciones.Prueba.Main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Main(30)",
+            "request": "launch",
+            "mainClass": "Repaso.Funciones.RepetirPalabra.Main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Main(31)",
+            "request": "launch",
+            "mainClass": "Repaso.Funciones.Suma.Main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Main(32)",
+            "request": "launch",
+            "mainClass": "Repaso.Funciones.SumaPares.Main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Main(33)",
+            "request": "launch",
+            "mainClass": "Repaso.arrays.Main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Main(34)",
+            "request": "launch",
+            "mainClass": "Repaso.arrays.arrayNumAleatorio.Main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Main(35)",
+            "request": "launch",
+            "mainClass": "Repaso.arrays.contarNumero.Main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Main(36)",
+            "request": "launch",
+            "mainClass": "Repaso.arrays.guardarEnArray.Main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Main(37)",
+            "request": "launch",
+            "mainClass": "Repaso.arrays.numerosPares.Main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Main(38)",
+            "request": "launch",
+            "mainClass": "Repaso.arrays.numsDecimales.Main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Main(39)",
+            "request": "launch",
+            "mainClass": "Repaso.arrays.ordenInverso.Main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Main(40)",
+            "request": "launch",
+            "mainClass": "Repaso.arrays.rellenarArray.Main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Main(41)",
+            "request": "launch",
+            "mainClass": "Repaso.arraysEjPrueba.Main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio9",
+            "request": "launch",
+            "mainClass": "Unidad1.EjEntregables.Ejercicio9",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "LaMaquina",
+            "request": "launch",
+            "mainClass": "Unidad1.EjEntregables.LaMaquina",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Clases",
+            "request": "launch",
+            "mainClass": "Unidad6.Clases",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Main(42)",
+            "request": "launch",
+            "mainClass": "Unidad6.EjemploTema6.src.controlador.Main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "usoCoches",
+            "request": "launch",
+            "mainClass": "Unidad6.ejemploCoche.usoCoches",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Main(43)",
+            "request": "launch",
+            "mainClass": "agendaDeNotas.main.Main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Main(44)",
+            "request": "launch",
+            "mainClass": "arrays.refuerzo.Main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "main(5)",
+            "request": "launch",
+            "mainClass": "unidad6Clases.ArticuloCientifico.main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "main(6)",
+            "request": "launch",
+            "mainClass": "unidad6Clases.Biblioteca.main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "main(7)",
+            "request": "launch",
+            "mainClass": "unidad6Clases.Bombilla.main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "main(8)",
+            "request": "launch",
+            "mainClass": "unidad6Clases.Calendario.main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "main(9)",
+            "request": "launch",
+            "mainClass": "unidad6Clases.Color.main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "main(10)",
+            "request": "launch",
+            "mainClass": "unidad6Clases.CuentaCorriente.main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "main(11)",
+            "request": "launch",
+            "mainClass": "unidad6Clases.Ecuacion.main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "main(12)",
+            "request": "launch",
+            "mainClass": "unidad6Clases.EmpresaFerroviaria.main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "main(13)",
+            "request": "launch",
+            "mainClass": "unidad6Clases.MarcaPagina.main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "main(14)",
+            "request": "launch",
+            "mainClass": "unidad6Clases.PedidoRestaurante.main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "main(15)",
+            "request": "launch",
+            "mainClass": "unidad6Clases.SintonizadorDigital.main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "main(16)",
+            "request": "launch",
+            "mainClass": "unidad6Clases.SistemaSolar.main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "main(17)",
+            "request": "launch",
+            "mainClass": "unidad6Clases.pruebaClases.main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "main(18)",
+            "request": "launch",
+            "mainClass": "unidad6Clases.pruebaClases1.main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "main(19)",
+            "request": "launch",
+            "mainClass": "unidad7Herencia.BiciExpress.main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "main(20)",
+            "request": "launch",
+            "mainClass": "unidad7Herencia.Electrodomestico.main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "main(21)",
+            "request": "launch",
+            "mainClass": "unidad7Herencia.Empleado.main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "main(22)",
+            "request": "launch",
+            "mainClass": "unidad7Herencia.EmpresaAgroalimentaria.main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "main(23)",
+            "request": "launch",
+            "mainClass": "unidad7Herencia.EmpresaTransporte.main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "main(24)",
+            "request": "launch",
+            "mainClass": "unidad7Herencia.Hora.main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "main(25)",
+            "request": "launch",
+            "mainClass": "unidad7Herencia.Instrumentos.main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "main(26)",
+            "request": "launch",
+            "mainClass": "unidad7Herencia.Multimedia.main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "main(27)",
+            "request": "launch",
+            "mainClass": "unidad7Herencia.Persona.main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "main(28)",
+            "request": "launch",
+            "mainClass": "unidad7Herencia.Poligono.main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "main(29)",
+            "request": "launch",
+            "mainClass": "unidad7Herencia.Punto.copy.main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "main(30)",
+            "request": "launch",
+            "mainClass": "unidad7Herencia.Punto.main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "main(31)",
+            "request": "launch",
+            "mainClass": "unidad7Herencia.SeleccionDeFutbol.main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "main(32)",
+            "request": "launch",
+            "mainClass": "unidad7Herencia.Yogur.main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "main(33)",
+            "request": "launch",
+            "mainClass": "unidad8Interfaces.InformacionEmpleados.main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "Main(45)",
+            "request": "launch",
+            "mainClass": "unidad8Interfaces.ej10Futbolista.Main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "main(34)",
+            "request": "launch",
+            "mainClass": "unidad8Interfaces.ej1FiguraEsfera.main",
+            "projectName": "programacion"
+        },
+        {
+            "type": "java",
+            "name": "main(35)",
+            "request": "launch",
+            "mainClass": "unidad8Interfaces.ej2Banco.main",
+            "projectName": "programacion"
+        }
+    ]
+}
