@@ -24,6 +24,7 @@ public class Piramide {
 			for(int j = altura; j > i; j--) {
 				System.out.print(caracter);
 			}
+		
 			System.out.println();
 		}
 		

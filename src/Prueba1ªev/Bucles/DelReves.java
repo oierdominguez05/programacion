@@ -11,22 +11,19 @@ public class DelReves {
 		 * 7.Realiza un programa que pida un número por teclado y que luego muestre ese
 		 * número al revés.
 		 */
-		
-		
+
 		Scanner teclado = new Scanner(System.in);
 		System.out.println("Dime un numero");
 		int numero = teclado.nextInt();
-		
+
 		String num = numero + "";
 		String reves = "";
-		
-		for (int i = num.length() -1; i >= 0; i--) {
+
+		for (int i = num.length() - 1; i >= 0; i--) {
 			char c = num.charAt(i);
 			reves += c;
 		}
 		System.out.println(reves);
-		
-
 	}
 
 }

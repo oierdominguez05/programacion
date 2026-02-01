@@ -26,15 +26,8 @@ public class PosicionDigito {
 
 		String num = numero + "";
 
-		String resultado = "";
+		String resultado = num.substring(0, posicion - 1) + digito + num.substring(posicion);
 
-		for (int i = 0; i < num.length(); i++) {
-			if (i == posicion - 1) {
-				resultado += digito;
-			} else {
-				resultado += num.charAt(i);
-			}
-		}
 		System.out.println("EL numero final es: " + resultado);
 	}
 

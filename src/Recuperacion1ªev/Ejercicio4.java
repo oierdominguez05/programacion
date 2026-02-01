@@ -26,80 +26,18 @@ public class Ejercicio4 {
 
 		String numero1 = numero + "";
 
-		
-			if (numero1.contains("0")) {
-				System.out.println("Aparece el 0");
+		System.out.println("Contienen");
+		for (int i = 0; i <= 9; i++) {
+			if (numero1.contains(i + "")) {
+				System.out.println(i + " ");
 			}
-			if (numero1.contains("1")) {
-				System.out.println("Aparece el 1");
+		}
+		System.out.println("NO continen");
+		for (int i = 0; i <= 9; i++) {
+			if (!numero1.contains(i + "")) {
+				System.out.println(i + " ");
 			}
-			if (numero1.contains("2")) {
-				System.out.println("Aparece el 2");
-			}
-		    if (numero1.contains("3")) {
-				System.out.println("Aparece el 3");
-			}
-		    if (numero1.contains("4")) {
-				System.out.println("Aparece el 4");
-			}
-		    if (numero1.contains("5")) {
-				System.out.println("Aparece el 5");
-			}
-		    if (numero1.contains("6")) {
-				System.out.println("Aparece el 6");
-			}
-		    if (numero1.contains("7")) {
-				System.out.println("Aparece el 7");
-			}
-		    if (numero1.contains("8")) {
-				System.out.println("Aparece el 8");
-			}
-		    if (numero1.contains("9")) {
-				System.out.println("Aparece el 9");
-			}
-			
-		    
-		    
-		    
-		    
-		    
-		    
-		    if (!numero1.contains("0")) {
-				System.out.println("NO aparece el 0");
-			}
-			if (!numero1.contains("1")) {
-				System.out.println("NO aparece el 1");
-			}
-			if (!numero1.contains("2")) {
-				System.out.println("NO aparece el 2");
-			}
-		    if (!numero1.contains("3")) {
-				System.out.println("NO aparece el 3");
-			}
-		    if (!numero1.contains("4")) {
-				System.out.println("NO aparece el 4");
-			}
-		    if (!numero1.contains("5")) {
-				System.out.println("NO aparece el 5");
-			}
-		    if (!numero1.contains("6")) {
-				System.out.println("NO aparece el 6");
-			}
-		    if (!numero1.contains("7")) {
-				System.out.println("NO aparece el 7");
-			}
-		    if (!numero1.contains("8")) {
-				System.out.println("NO aparece el 8");
-			}
-		    if (!numero1.contains("9")) {
-				System.out.println("NO aparece el 9");
-			}
-		    
-		    
-		    
-		    
-			
-		
+		}
 
 	}
 
