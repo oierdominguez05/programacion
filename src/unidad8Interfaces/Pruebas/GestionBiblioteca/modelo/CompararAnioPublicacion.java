@@ -1,4 +1,4 @@
-package unidad8Interfaces.GestionBiblioteca.modelo;
+package unidad8Interfaces.Pruebas.GestionBiblioteca.modelo;
 
 import java.util.Comparator;
 
@@ -6,8 +6,7 @@ public class CompararAnioPublicacion implements Comparator<Publicacion> {
 
 	@Override
 	public int compare(Publicacion o1, Publicacion o2) {
-		// TODO Auto-generated method stub
-		return Integer.compare(o1.getAnio(), o2.getAnio());
+		return Integer.compare(o1.getAñoPublicacion(), o2.getAñoPublicacion());
 	}
 
 }

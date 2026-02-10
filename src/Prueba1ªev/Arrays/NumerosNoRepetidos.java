@@ -33,7 +33,7 @@ public class NumerosNoRepetidos {
 				numeros[i] = aleatorio;
 			}
 		}
-
+		System.out.println(Arrays.toString(numeros));
 		/*
 		 * boolean finalizar = false; do {
 		 * 
@@ -47,7 +47,7 @@ public class NumerosNoRepetidos {
 		 * }while (finalizar == false);
 		 */
 
-		System.out.println(Arrays.toString(numeros));
+
 	}
 
 }

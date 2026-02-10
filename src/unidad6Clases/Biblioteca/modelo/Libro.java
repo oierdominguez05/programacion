@@ -1,6 +1,8 @@
 package unidad6Clases.Biblioteca.modelo;
 
-public class Libro {
+import unidad8Interfaces.ej1Biblioteca.modelo.Publicacion;
+
+public class Libro extends Publicacion{
 
 	private String tituloLibro;
 	private String autor;
@@ -8,7 +10,7 @@ public class Libro {
 	private int numEjemplaresPrestados;
 
 	public Libro(String tituloLibro, String autor, int numEjemplares, int numEjemplaresPrestados) {
-		super();
+		super(codISBN, autor, numEjemplaresPrestados);
 		this.tituloLibro = tituloLibro;
 		this.autor = autor;
 		this.numEjemplares = numEjemplares;
