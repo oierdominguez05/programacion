@@ -1,4 +1,4 @@
-package Examenes.Examen2SegundaEv.Pregunta23.modelo;
+	package Examenes.Examen2SegundaEv.Pregunta23.modelo;
 
 public interface CalcularProducto {
 
