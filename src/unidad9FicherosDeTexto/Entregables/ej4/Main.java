@@ -1,4 +1,4 @@
-	package unidad9FicherosDeTexto.Entregables.ej4;
+package unidad9FicherosDeTexto.Entregables.ej4;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -13,12 +13,17 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		BufferedWriter bw = null;
-		BufferedWriter bw1 = null;
-		BufferedWriter bw2 = null;
+		
+														MAL
+		
+		try (Scanner sc = new Scanner(new BufferedReader(new FileReader("deportistas.txt")));
+				BufferedWriter bw = new BufferedWriter(new FileWriter("NombreEdad.txt", true));
+				BufferedWriter bw1 = new BufferedWriter(new FileWriter("NombrePeso.txt", true));
+				BufferedWriter bw2 = new BufferedWriter(new FileWriter("NombreAltura.txt", true));
 
-		try (Scanner sc = new Scanner(new BufferedReader(new FileReader("\\src\\textos\\deportistas.txt")))) {
+		) {
 
+			sc.nextLine();
 			sc.nextLine();
 
 			while (sc.hasNext()) {
@@ -32,22 +37,17 @@ public class Main {
 				double peso = sc.nextDouble();
 				double altura = sc.nextDouble();
 
-				bw = new BufferedWriter(new FileWriter("NombreEdad.txt", true));
-				bw.write(nombreCompleto + " "+  edad);
+				bw.write(nombreCompleto + " " + edad);
 				bw.newLine();
-				
-				bw1 = new BufferedWriter(new FileWriter("NombrePeso.txt", true));
+
 				bw1.write(nombreCompleto + " " + peso);
-				bw.newLine();
-				
-				bw2 = new BufferedWriter(new FileWriter("NombreAltura.txt", true));
+				bw1.newLine();
+
 				bw2.write(nombreCompleto + " " + altura);
-				bw.newLine();
-				
+				bw2.newLine();
+
 			}
-			bw.close();
-			bw1.close();
-			bw2.close();
+
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
