@@ -19,7 +19,7 @@ public class Main {
 		Scanner teclado = new Scanner(System.in);
 		ArrayList<Integer> numeros = new ArrayList<>();
 		
-		for(int i= 0; i<= 20; i++) {
+		for(int i= 0; i< 20; i++) {
 		int aleatorio = (int)(Math.random()* 10) +1;
 		numeros.add(aleatorio);
 		

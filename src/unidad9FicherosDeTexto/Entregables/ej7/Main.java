@@ -14,12 +14,11 @@ public class Main {
 		Scanner teclado = new Scanner(System.in);
 		System.out.println("Dime el nombre de un fichero, por ejemplo EjemploEj7.txt");
 		BufferedReader br = null;
-		String nombreFichero = teclado.nextLine();
 		
 		
 		
 		try {
-			br = new BufferedReader(new FileReader(nombreFichero));
+			br = new BufferedReader(new FileReader("EjemploEj7.txt"));
 			String linea;
 			int numVecesEncontrado = 0;
 			int contadorLinea = 0;

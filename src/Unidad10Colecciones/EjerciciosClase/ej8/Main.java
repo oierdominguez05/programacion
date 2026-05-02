@@ -124,8 +124,8 @@ public class Main {
 
 	static void salir() {
 		try {
-			
-			if(bw != null) {
+
+			if (bw != null) {
 				bw.close();
 			}
 		} catch (IOException e) {

@@ -22,7 +22,9 @@ public class Main {
 
 		try {
 			if (fichero.isEmpty()) {
+
 				System.out.println("El fichero esta vacio. Se mostrará el fichero predeterminado:");
+				System.out.println(" ");
 				FileReader creado = new FileReader("prueba.txt");
 				Scanner scanner = new Scanner(creado);
 				while (scanner.hasNextLine()) {

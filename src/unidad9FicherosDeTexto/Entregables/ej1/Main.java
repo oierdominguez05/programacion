@@ -10,7 +10,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-														MAL
+
 		Scanner teclado = new Scanner(System.in);
 
 		BufferedReader br1 = null;
@@ -21,19 +21,29 @@ public class Main {
 
 			br2 = new BufferedReader(new FileReader("texto2.txt"));
 
-			String texto = br1.readLine();
-			String[] texto1 = texto.split(" ");
+			String linea1;
+			String linea2;
+			int numLinea = 1;
+			// procesando linea a linea
+			while ((linea1 = br1.readLine()) != null && (linea2 = br2.readLine()) != null) {
 
-			String linea;
-			int numLinea = 0;
-			while ((linea = br2.readLine()) != null) {
-				for (String p : texto1) {
-					numLinea++;
-					if (linea.toLowerCase().contains(p.toLowerCase())) {
-						System.out.print("Palabra encontrada: " + p);
-						System.out.println("  En linea: " + numLinea);
+				// procesando caracter a caracter
+				for (int numChar = 1; numChar <= Integer.min(linea1.length(), linea2.length()); numChar++) {
+					char c1 = linea1.charAt(numChar - 1);
+					char c2 = linea2.charAt(numChar - 1);
+					if (c1 != c2) {
+						System.out.println("Caracter diferente numero: " + numChar + " en linea: " + numLinea);
+						return;
 					}
+
 				}
+
+				if (linea1.length() != linea2.length()) {
+					System.out.println("Caracter diferente numero: "
+							+ (Integer.min(linea1.length(), linea2.length()) + 1) + " en linea: " + numLinea);
+					return;
+				}
+				numLinea++;
 			}
 
 		} catch (FileNotFoundException e) {
@@ -49,6 +59,8 @@ public class Main {
 				e.printStackTrace();
 			}
 		}
+
+		System.out.println("Los ficheros son iguales");
 
 	}
 

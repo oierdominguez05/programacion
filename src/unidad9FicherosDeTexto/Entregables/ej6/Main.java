@@ -10,6 +10,11 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		/*Algunos sistemas operativos disponen de la orden comp, que compara dos
+		archivos y nos dice si son iguales o distintos. Diseña esta orden de forma
+		que, además, nos diga en qué línea y carácter se encuentra la primera
+		diferencia. Utiliza los ficheros texto1.txt y texto2.txt.*/
+		
 		Scanner teclado = new Scanner(System.in);
 		System.out.println(
 				"Te doy en nombre de un fichero cen el que puedes buscar palabras, el nombre del archivo es textoLargo.txt");
