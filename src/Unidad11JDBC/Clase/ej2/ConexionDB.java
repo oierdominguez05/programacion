@@ -19,7 +19,6 @@ public class ConexionDB {
 				System.out.println(e.getMessage());
 			}
 
-			
 		}
 
 		return con;
@@ -27,4 +26,3 @@ public class ConexionDB {
 	}
 
 }
-

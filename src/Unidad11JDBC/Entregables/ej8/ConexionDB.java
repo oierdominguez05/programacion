@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class ConexionDB {
 
 	private static Connection con;
-	public static Connection getConexion() {
+	private static Connection getConexion() {
 		if(con == null) {
 			try {
 				con = DriverManager.getConnection("jdbc:mysql://localhost:3306/empresa", "root", "root");

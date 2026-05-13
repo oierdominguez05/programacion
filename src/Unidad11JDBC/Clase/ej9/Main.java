@@ -17,42 +17,42 @@ public class Main {
 		 * la nota de forma ascendente. Para realizar esta actividad usaremos una
 		 * consulta con parámetros y la reutilizaremos.
 		 */
-		
-		
+
 		try {
-			
-			PreparedStatement ps = ConexionDB.getConexion().prepareStatement("Select * from alumno where notaMedia >= ? and notaMedia < ? order by  notaMedia asc");
-			
+
+			PreparedStatement ps = ConexionDB.getConexion().prepareStatement(
+					"Select * from alumno where notaMedia >= ? and notaMedia < ? order by  notaMedia asc");
+
 			ps.setDouble(1, 6);
 			ps.setDouble(2, 7);
-			
+
 			ResultSet rs = ps.executeQuery();
-			while(rs.next()) {
-				System.out.println("Nota Bien");
+			System.out.println("Nota Bien");
+			while (rs.next()) {
+				System.out.println();
 				System.out.println("Id: " + rs.getInt("id"));
 				System.out.println("Nombre: " + rs.getString("nombre"));
 				System.out.println("Fecha de nacimiento: " + rs.getString("fNacimiento"));
 				System.out.println("Nota media: " + rs.getString("notaMedia"));
 				System.out.println("Curso" + rs.getString("curso"));
-				
+
 			}
 			System.out.println();
-			
-			PreparedStatement ps1 = ConexionDB.getConexion().prepareStatement("Select * from alumno where notaMedia >= ? and notaMedia < ? order by  notaMedia asc");
-			
-			ps1.setDouble(1, 7);
-			ps1.setDouble(2, 9);
-			ResultSet rs1 = ps1.executeQuery();
-			while(rs1.next()) {
-				System.out.println("Nota Notable");
+
+			ps.setDouble(1, 7);
+			ps.setDouble(2, 9);
+			ResultSet rs1 = ps.executeQuery();
+			System.out.println("Nota Notable");
+			while (rs1.next()) {
+
 				System.out.println("Id: " + rs1.getInt("id"));
 				System.out.println("Nombre: " + rs1.getString("nombre"));
 				System.out.println("Fecha de nacimiento: " + rs1.getString("fNacimiento"));
 				System.out.println("Nota media: " + rs1.getString("notaMedia"));
 				System.out.println("Curso" + rs1.getString("curso"));
 			}
-			
-		}catch(SQLException e) {
+
+		} catch (SQLException e) {
 			System.out.println(e.getMessage());
 		}
 
